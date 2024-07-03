@@ -40,7 +40,7 @@ parser.add_argument(
     type=lambda x: (13 >= len(str(int(x))) >= 4)
     and int(x)
     or parser.error('"%s" is an invalid mobile number!' % int(x)),
-    help="Target mobile number without country code.",
+    help="15155876206.",
 )
 parser.add_argument(
     "--config-path",
